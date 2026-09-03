@@ -100,3 +100,17 @@ Let's image we have a **sorted array**. In this array we going to search for a p
 ### Graphs
 
 ![](image.png)
+
+### Big O in Arrays vs Linked List
+
+Comparing Arrays and linked Lists
+
+| | Array | Linked List |
+|-| ----- | ----------- |
+|Cost of accessing elements | O(1) | O(n) |
+|Insert/Remove from beginning | O(n) | O(1) |
+|Insert/Remove from end | O(1) | O(n) |
+|Insert/Remove from middle | O(n) | O(n)|
+
+
+
