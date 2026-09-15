@@ -98,9 +98,6 @@ It doesn't matter if n is 10 or a billion. There's only going to be one operatio
 Let's image we have a **sorted array**. In this array we going to search for a particular number. The quickest way to find the number, is to cut the array in half and check if the number we're searching for resides in the first or the second half. After finding in which half the number resides, we can remove the other half. We can keep doing this until we find the number. This is O(log n).
 O(log n) is also known as *devide and conquer*. 
 
-### O(1)
-O(1) is known as **constant time**. For example retrieving an item fron an `ArrayList` via index. This is the *best* case.
-
 ### Graphs
 
 ![](image.png)
